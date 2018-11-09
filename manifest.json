@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "",
-  "description": "",
+  "name": "GitHub Great Time",
+  "description": "Change the notation of ~hours/days ago displayed in GitHub issue/PR to absolute time notation.",
   "version": "0.1.0",
   "content_scripts": [{
     "matches": ["https://github.com/*"],
