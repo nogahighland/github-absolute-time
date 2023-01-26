@@ -1,5 +1,5 @@
 function repplaceRelativeTime() {
-  const bgColor = $($('.TableObject-item > .State')[0]).css('background-color') || '#00a497';
+  const bgColor = $($('.State')[0]).css('background-color') || '#00a497';
   $('relative-time').each(function () {
     const absTime = moment($(this).attr('datetime')).format('llll');
     const height = $(this).height();
