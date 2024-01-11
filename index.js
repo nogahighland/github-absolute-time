@@ -8,4 +8,4 @@ function repplaceRelativeTime() {
   });
 }
 setTimeout(repplaceRelativeTime, 0.5 * 1000);
-setInterval(repplaceRelativeTime, 10 * 1000);
+setInterval(repplaceRelativeTime, 1 * 1000);
